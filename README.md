@@ -49,11 +49,11 @@ Refer to the [data description](http://jse.amstat.org/v19n3/decock/DataDocumenta
  
 Lasso Regression (Lasso) Model is chosen for the modelling of the Ames Housing data, for the prediction of Sale Price. The model is able to achieve a R2 score of 0.887, which means it covers 88.7% of the data. And a RMSE value of **31260** based on Kaggle submission. 
 
-![Kaggle RMSE Score](..\img\Kaggle_Submission.png)
+![Kaggle RMSE Score](../img/Kaggle_Submission.png)
 
 30 features were used for the LR model:
 
-![Coefficient](..\img\Coefficient_LR.png)
+![Coefficient](../img/Coefficient_LR.png)
 
 Based on the coefficient, Total SF is the most significant variables that will affect the house price, followed by Overall Quality and Kitchen Quality, which makes sense. 1 square feet increase in the house area will increase the price by close to USD 40,000. 
 
