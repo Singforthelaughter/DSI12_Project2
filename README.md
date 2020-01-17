@@ -49,7 +49,7 @@ Refer to the [data description](http://jse.amstat.org/v19n3/decock/DataDocumenta
  
 Linear Regression (LR) Model is chosen for the modelling of the Ames Housing data, for the prediction of Sale Price. The model is able to achieve a R2 score of 0.887, which means it covers 88.7% of the data. And a RMSE value of **275706** based on Kaggle submission. 
 
-![Kaggle RMSE Score](\img\Kaggle_Submission.png)
+![Kaggle RMSE Score](./img/Kaggle_Submission.png)
 
 The R2 value differences between LR(0.885) and Lasso(0.887) is very small, which means the model is not overfitting and variance is small. This can be further proven with the small difference between R2 value of LR for model selection (0.885) and model fitting (0.887). 
 
@@ -90,7 +90,7 @@ The R2 value differences between LR(0.885) and Lasso(0.887) is very small, which
 
 Based on the coefficient, we can see that being in a certain neighbourhood and having certain features in a house will have more effect on the Sale Price of the house. For example, being in the neighbourhood GrnHill will increase the Sale Price by USD 16,899, while having house exterior covered with cement board (Exterior 2nd_CmentBd) will decrease the prices by USD 44,892.
 
-![Ames Neighborhood](\img\Ames_Neighborhood_Map.png)
+![Ames Neighborhood](./img/Ames_Neighborhood_Map.png)
 
 Further research proved the model right as seen from the map above. Green Hills are a stone throw away from Iowa University and relatively close to Ames city center. North Ridge, North Ridge Height and Stone Bridge are within the upper class neighbourhood in Ames, with closeby malls, neighborhood center, parks and even a golf course (A sport for rich people!). 
 
