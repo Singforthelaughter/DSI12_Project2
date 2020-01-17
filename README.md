@@ -55,38 +55,7 @@ The R2 value differences between LR(0.885) and Lasso(0.887) is very small, which
 
 30 features were used for the LR model:
 
-| **Features**              | **Coefficient**    |
-|-----------------------|----------------|
-| Neighborhood\_GrnHill | 16899\.599814  |
-| Neighborhood\_StoneBr | 57611\.905242  |
-| Exterior 1st\_CemntBd | 54873\.019475  |
-| Neighborhood\_NridgHt | 32298\.972379  |
-| Neighborhood\_NoRidge | 25516\.544566  |
-| Foundation\_Slab      | 23970\.306043  |
-| Neighborhood\_Crawfor | 19596\.649689  |
-| Fireplaces\_2         | 19109\.097456  |
-| Exterior 1st\_AsbShng | 15375\.574201  |
-| Garage Type\_NA       | 13876\.619812  |
-| Exterior 1st\_BrkFace | 12442\.046459  |
-| Kitchen Qual          | 11942\.690442  |
-| Exter Qual            | 11923\.004578  |
-| Overall Qual          | 10415\.860683  |
-| Garage Finish         |  3876\.936165  |
-| House Style\_SLvl     |  2696\.373104  |
-| Total SF              |    38\.337968  |
-| Age                   |  \-330\.274008 |
-| Neighborhood\_NAmes   | \-1128\.696364 |
-| House Style\_1Story   | \-2227\.677653 |
-| Exterior 1st\_VinylSd | \-3708\.398254 |
-| Neighborhood\_OldTown | \-4297\.397412 |
-| Fireplaces\_0         | \-4526\.431922 |
-| Remod\_0              | \-5868\.865238 |
-| Mas Vnr Type\_BrkFace | \-7395\.776814 |
-| MS SubClass\_90       | \-21019\.938726  |
-| Exterior 2nd\_AsbShng | \-23354\.881996  |
-| MS SubClass\_160      | \-25164\.033226  |
-| MS SubClass\_120      | \-28192\.618684  |
-| Exterior 2nd\_CmentBd | \-44892\.389644  |
+![Coefficient](./img/Coefficient_LR.png)
 
 Based on the coefficient, we can see that being in a certain neighbourhood and having certain features in a house will have more effect on the Sale Price of the house. For example, being in the neighbourhood GrnHill will increase the Sale Price by USD 16,899, while having house exterior covered with cement board (Exterior 2nd_CmentBd) will decrease the prices by USD 44,892.
 
