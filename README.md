@@ -65,4 +65,17 @@ Further research proved the model right as seen from the map above. Green Hills 
 
 We can also possibly deduce where the other richer and poorer neighbourhood in AMES based on whether the neighbourhood has + or - coefficient on Sale Price. 
 
+**Limitation**
+
+-Many variables were drop because of skewed data/null values
+
+-Model will improve if the data collection is more comprehensive
+
+-Errors increases when predicting sale price of higher range
+
+-External Unknown variables not included
+
+
 In summary, we can conclude that the LR model for the AMES housing dataset has addressed the problem statement of estimating Sale Price of AMES houses with lowest possible error.
+
+
