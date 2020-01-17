@@ -47,22 +47,22 @@ Refer to the [data description](http://jse.amstat.org/v19n3/decock/DataDocumenta
  
 ## Summary
  
-Linear Regression (LR) Model is chosen for the modelling of the Ames Housing data, for the prediction of Sale Price. The model is able to achieve a R2 score of 0.887, which means it covers 88.7% of the data. And a RMSE value of **275706** based on Kaggle submission. 
+Lasso Regression (Lasso) Model is chosen for the modelling of the Ames Housing data, for the prediction of Sale Price. The model is able to achieve a R2 score of 0.887, which means it covers 88.7% of the data. And a RMSE value of **31260** based on Kaggle submission. 
 
-![Kaggle RMSE Score](./img/Kaggle_Submission.png)
-
-The R2 value differences between LR(0.885) and Lasso(0.887) is very small, which means the model is not overfitting and variance is small. This can be further proven with the small difference between R2 value of LR for model selection (0.885) and model fitting (0.887). 
+![Kaggle RMSE Score](..\img\Kaggle_Submission.png)
 
 30 features were used for the LR model:
 
-![Coefficient](./img/Coefficient_LR.png)
+![Coefficient](..\img\Coefficient_LR.png)
 
-Based on the coefficient, we can see that being in a certain neighbourhood and having certain features in a house will have more effect on the Sale Price of the house. For example, being in the neighbourhood GrnHill will increase the Sale Price by USD 16,899, while having house exterior covered with cement board (Exterior 2nd_CmentBd) will decrease the prices by USD 44,892.
+Based on the coefficient, Total SF is the most significant variables that will affect the house price, followed by Overall Quality and Kitchen Quality, which makes sense. 1 square feet increase in the house area will increase the price by close to USD 40,000. 
+
+Also, we can observe that the top 4 neighbourhood that will increase the price positively are North Ridge Height, Stone Bridge, Green Hills and North Ridge. 
 
 ![Ames Neighborhood](./img/Ames_Neighborhood_Map.png)
 
 Further research proved the model right as seen from the map above. Green Hills are a stone throw away from Iowa University and relatively close to Ames city center. North Ridge, North Ridge Height and Stone Bridge are within the upper class neighbourhood in Ames, with closeby malls, neighborhood center, parks and even a golf course (A sport for rich people!). 
 
-Surprisingly, the Total Square Feet (Total SF) and Age of the house do not affect the Sale Price of the house that much in relatively to other 28 features. We can also possibly deduce where the other richer and poorer neighbourhood in AMES based on whether the neighbourhood has + or - coefficient on Sale Price. 
+We can also possibly deduce where the other richer and poorer neighbourhood in AMES based on whether the neighbourhood has + or - coefficient on Sale Price. 
 
 In summary, we can conclude that the LR model for the AMES housing dataset has addressed the problem statement of estimating Sale Price of AMES houses with lowest possible error.
